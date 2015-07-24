@@ -4,7 +4,7 @@
 </style>
 <div class="get_started_outer">
     <?php if(SES_TYPE<3) { ?>
-    <div class="get_hd_bg">Getting Started with Orangescrum</div>
+    <div class="get_hd_bg">Getting Started with PCM</div>
     <div class="get_det">
         <div class="fl get_img get_prj_bg" onclick="newProject();" style="cursor: pointer;">
             <div class="get_prj"></div>

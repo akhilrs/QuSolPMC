@@ -42,7 +42,7 @@ input#txt_Password{font-family: Arial}
             <div style="position:relative; z-index:9;">
                 <div class="bg_logo_inner" style="top:-100px;left:-180px"></div>
                 <div class="logo_landing">
-                    <a href="<?php echo HTTPS_HOME; ?>"><img src="<?php echo HTTP_ROOT; ?>img/images/logo_outer.png?v=<?php echo RELEASE; ?>"  border="0" alt="Orangescrum.com" title="Orangescrum.com"/></a>
+                    <span class="brand-logo">QuSol</span>
                     <?php
 					if(!$findCompany['Company']['id']) {
 						?>
@@ -65,11 +65,11 @@ input#txt_Password{font-family: Arial}
 					}
 					else {
 					?>
-					<div style="padding:10px 5px;">
-						<div style="clear:both"></div>
-						<div style="float:left"><a href="https://www.orangescrum.com/how-it-works" target="_blank">How it Works?</a></div>
-						<div style="float:right;padding-right:10px;"><a href="https://www.orangescrum.com/help" target="_blank">Help!</a></div>
-					</div>
+					<!-- <div style="padding:10px 5px;">
+                        <div style="clear:both"></div>
+                        <div style="float:left"><a href="https://www.orangescrum.com/how-it-works" target="_blank">How it Works?</a></div>
+                        <div style="float:right;padding-right:10px;"><a href="https://www.orangescrum.com/help" target="_blank">Help!</a></div>
+                    </div> -->
 					<?php
 					}
 					?>
@@ -219,12 +219,6 @@ input#txt_Password{font-family: Arial}
                                         </div>
                                     </div>
                                     <div class="cb"></div>
-                                    <div style="padding:20px 0;text-align:center">
-                                    	<a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;"><img src="<?php echo HTTP_ROOT."img/google_groups.jpg"; ?>"/></a>
-                                        <br/>
-                                    	You can ask for help, share your ideas, contribute to the community edition and also let us know your feedback using the <a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;">Orangescrum's Google Group</a>.
-                                        
-                                    </div>
                                 </div>
                             </div>
                             <div class="cb"></div>

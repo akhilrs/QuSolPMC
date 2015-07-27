@@ -319,7 +319,7 @@ class SanitizeTest extends CakeTestCase {
 
 		$string = '<link href="/css/styles.css" media="screen" rel="stylesheet" />' . "\n" .
 			
-			'<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />' . "\n" .
+			
 			'<link rel="alternate" href="/feed.xml" title="RSS Feed" type="application/rss+xml" />';
 		$expected = "\n" .
 			

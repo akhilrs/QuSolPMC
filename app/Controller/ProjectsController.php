@@ -2032,7 +2032,7 @@ function project_thumb_view(){
 			$projUniqId = $prjArr['Project']['uniq_id'];
 		}
 		
-		$subject = "You have been added to ".$projName." on Orangescrum";
+		$subject = "You have been added to ".$projName." on QuSol PMC";
 
 		$this->Email->delivery = 'smtp';
 		$this->Email->to = $to_email;      

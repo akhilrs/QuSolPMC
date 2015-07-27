@@ -1024,10 +1024,10 @@ Team Orangescrum
                             $ext_user = '';
 //			    
                             if (@$findEmail['User']['id']) {
-                                $subject = $fromName . " invited you to join " . CMP_SITE . " on Orangescrum";
+                                $subject = $fromName . " invited you to join " . CMP_SITE;
                                 $ext_user = 1;
                             } else {
-                                $subject = $fromName . " invited you to join Orangescrum";
+                                $subject = $fromName . " invited you to join QuSol PMC";
                             }
                             $this->Email->delivery = 'smtp';
                             $this->Email->to = $to;

@@ -107,10 +107,10 @@
             <div class="get_title"></div>
             <ul style="padding:5px 15px;margin-top:0px;">
                 <li>
-                    You can respond to the task Email sent from notify@orangescrum.com.
+                    You can respond to the task Email sent from notify@qusol.org.
                 </li>
                 <li>
-                    Your Email response will be posted on Orangescrum against that task.
+                    Your Email response will be posted on QuSol PMC against that task.
                 </li>
                 <li>
                     Respond on a task even on-the-go from your mobile via Email.

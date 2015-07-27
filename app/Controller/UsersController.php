@@ -619,10 +619,10 @@ class UsersController extends AppController {
 			
 			$ext_user = '';
 			if (!$getUser['User']['password']) {
-				$subject = $fromName." Invited you to join ".$comp['Company']['name']." on Orangescrum";
+				$subject = $fromName." Invited you to join ".$comp['Company']['name'];
 				$ext_user = 1;
 			} else {
-				$subject = $fromName." Invited you to join on Orangescrum";
+				$subject = $fromName." Invited you to join on QuSol";
 			}
 			
 			$this->Email->delivery = 'smtp';
@@ -1047,10 +1047,10 @@ class UsersController extends AppController {
 									
 									$ext_user = '';
 									if(@$findEmail['User']['id']) {
-										$subject = $fromName." invited you to join ".$comp['Company']['name']." on Orangescrum";
+										$subject = $fromName." invited you to join ".$comp['Company']['name'];
 										$ext_user = 1;              			
 									}else {
-										$subject = $fromName." invited you to join Orangescrum";
+										$subject = $fromName." invited you to join QuSol PMC";
 									}
 									
 									$this->Email->delivery = 'smtp';
@@ -1191,10 +1191,10 @@ class UsersController extends AppController {
 
 								$ext_user = '';
 								if(@$findEmail['User']['id']) {
-									$subject = $fromName." invited you to join ".$comp['Company']['name']." on Orangescrum";
+									$subject = $fromName." invited you to join ".$comp['Company']['name'];
 									$ext_user = 1;              			
 								}else {
-									$subject = $fromName." invited you to join Orangescrum";
+									$subject = $fromName." invited you to join QuSol PMC";
 								}			
 
 								$this->Email->delivery = 'smtp';
@@ -3255,10 +3255,10 @@ function done_cropimage(){
 		$multiple = 0;
 		if(stristr($pjnames,",")) {
 			$multiple = 1;
-			$subject = "You have been added to multiple projects on Orangescrum";
+			$subject = "You have been added to multiple projects on QuSol PMC";
 		}
 		else {
-			$subject = "You have been added to ".$pjnames." on Orangescrum";
+			$subject = "You have been added to ".$pjnames." on QuSol PMC";
 		}
 		
 		$this->Email->delivery = 'smtp';

@@ -39,12 +39,12 @@
 									if($existing_user)
 									{
 									?>
-										You are receiving this email notification because you have subscribed to Orangescrum, to unsubscribe, please email with subject 'Unsubscribe' to <a href='mailto:support@qusol.org'>support@qusol.org</a>
+										You are receiving this email notification because you have subscribed to QuSol PMC, to unsubscribe, please email with subject 'Unsubscribe' to <a href='mailto:support@qusol.org'>support@qusol.org</a>
 									<?php
 									}
 									else {
 									?>
-										Your email address is used to invite you on Orangescrum. If you didn't intend to do this, just ignore this email; no account has been created yet.
+										Your email address is used to invite you on QuSol PMC. If you didn't intend to do this, just ignore this email; no account has been created yet.
 									<?php
 									}
 									?>

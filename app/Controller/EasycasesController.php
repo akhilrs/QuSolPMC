@@ -21,7 +21,7 @@
  * 02110-1301 USA.
  *
  * You can contact Orangescrum, 2059 Camden Ave. #118, San Jose, CA - 95124, US. 
-   or at email address support@orangescrum.com.
+   or at email address support@qusol.org.
  *
  * The interactive user interfaces in modified source and object code versions
  * of this program must display Appropriate Legal Notices, as required under
@@ -6376,7 +6376,7 @@ CompanyUser.company_id=".SES_COMP." $usercond) AS total_users $projectcond";
     /**
      * @method public taskDownload() Create downloadable folder which will contain a .csv File and a Folder containg all the Attachment
      * @return string Returns the downloadable URL
-     * @author GDR<support@Orangescrum.com>
+     * @author GDR<support@qusol.org>
      */
     function taskDownload() {
 		

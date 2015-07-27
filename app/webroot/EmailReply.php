@@ -763,7 +763,7 @@ This is to notify you that, the email reply sent could not added to Task#: ' . $
 ' . $userMsg1 . '
 
 <span style="collor:#848484;">Regards,<br />
-The Orangescrum Team</span>
+QuSol PMC</span>
 <br /><br />
 </td>	
 </tr>

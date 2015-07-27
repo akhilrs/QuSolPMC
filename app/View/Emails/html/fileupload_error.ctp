@@ -20,7 +20,7 @@
 				<p>Fie size: <?php echo $f_size;?> </p>				
 				<br/>
 				<p>Regards,<br/>
-				The Orangescrum Team</p>
+				QuSol PMC</p>
                             </td>
                         </tr>
                    </table>
@@ -34,7 +34,7 @@
 									if($existing_user)
 									{
 									?>
-										You are receiving this email notification because you have subscribed to Orangescrum, to unsubscribe, please email with subject 'Unsubscribe' to <a href='mailto:support@orangescrum.com'>support@orangescrum.com</a>
+										You are receiving this email notification because you have subscribed to Orangescrum, to unsubscribe, please email with subject 'Unsubscribe' to <a href='mailto:support@qusol.org'>support@qusol.org</a>
 									<?php
 									}
 									else {

@@ -17,7 +17,7 @@
 								if($existing_user)
 								{
 								?>
-									<p>You have got an invitation from <a href="mailto:<?php echo $fromEmail; ?>"><?php echo $fromName; ?></a> to join <?php echo $company_name; ?>  on Orangescrum.</p>
+									<p>You have got an invitation from <a href="mailto:<?php echo $fromEmail; ?>"><?php echo $fromName; ?></a> to join <?php echo $company_name; ?>  on QuSol PMC.</p>
 									<p>Please click the button below to accept the invitation.</p>
 									
 									<a style="font-weight:bold; text-decoration:none;" href="<?php echo HTTP_ROOT.'users/invitation/'.$qstr;?>" target='_blank'><div style="display:block; max-width:100% !important; width:auto !important;margin:auto; height:auto !important;background-color:#0EA426;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;border-radius:10px;color:#ffffff;font-size:16px;text-align:center">Join <?php echo $company_name; ?></div></a>
@@ -26,22 +26,22 @@
 								}
 								else {
 								?>
-									<p><a href="mailto:<?php echo $fromEmail; ?>"><?php echo $fromName; ?></a> has just setup an account for you on Orangescrum.</p>
+									<p><a href="mailto:<?php echo $fromEmail; ?>"><?php echo $fromName; ?></a> has just setup an account for you on QuSol PMC.</p>
 									<p>Please click the button below to get started.</p>
 									
-									<a style="font-weight:bold; text-decoration:none;" href="<?php echo HTTP_ROOT.'users/invitation/'.$qstr;?>" target='_blank'><div style="display:block; max-width:100% !important; width:auto !important;margin:auto; height:auto !important;background-color:#0EA426;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;border-radius:10px;color:#ffffff;font-size:16px;text-align:center">Get started with Orangescrum</div></a>
+									<a style="font-weight:bold; text-decoration:none;" href="<?php echo HTTP_ROOT.'users/invitation/'.$qstr;?>" target='_blank'><div style="display:block; max-width:100% !important; width:auto !important;margin:auto; height:auto !important;background-color:#0EA426;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;border-radius:10px;color:#ffffff;font-size:16px;text-align:center">Get started with QuSol PMC</div></a>
 								<?php
 								}
 								?>
 									
                                 <br/>
 								
-								<p>If you have any questions, please write us at <a href='mailto:support@orangescrum.com'>support@orangescrum.com</a>, we will be happy to help you.</p>
+								<p>If you have any questions, please write us at <a href='mailto:support@qusol.org'>support@qusol.org</a>, we will be happy to help you.</p>
 								
 								<br/>
 								
 								<p>Regards,<br/>
-								The Orangescrum Team</p>
+								QuSol PMC</p>
                             </td>
                         </tr>
                    </table>
@@ -54,12 +54,12 @@
 									if($existing_user)
 									{
 									?>
-										You are receiving this email notification because you have subscribed to Orangescrum, to unsubscribe, please email with subject 'Unsubscribe' to <a href='mailto:support@orangescrum.com'>support@orangescrum.com</a>
+										You are receiving this email notification because you have subscribed to QuSol PMC, to unsubscribe, please email with subject 'Unsubscribe' to <a href='mailto:support@qusol.org'>support@qusol.org</a>
 									<?php
 									}
 									else {
 									?>
-										Your email address is used to invite you on Orangescrum. If you didn't intend to do this, just ignore this email; no account has been created yet.
+										Your email address is used to invite you on QuSol PMC. If you didn't intend to do this, just ignore this email; no account has been created yet.
 									<?php
 									}
 									?>
@@ -93,7 +93,7 @@
 		</p>
 		<p style="display:block;margin:0">
 			Regards,<br/>
-			The Orangescrum Team
+			QuSol PMC
 		</p>				
 	</div>
       </td>

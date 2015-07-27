@@ -30,7 +30,7 @@ h1.big_hd_2,h1.big_hd_1{border-bottom:1px solid #E7E7E7;color:#333333;font-size:
     </style>	
 <![endif]-->
 <h1  <?php if(!$this->Session->read('Auth.User.id')){ ?>class="big_hd_2"<?php }else{ ?>class="big_hd_1"<?php } ?>>Frequently Asked Questions</h1>
-			<!--<div class="sml_hd" style="margin:0px auto;width:585px; text-align:center" align="center">You may have questions, we've tried to address them.<br />If you still have questions, please write to us at <a href='mailto:support@orangescrum.com' style="color:#066D99">support@orangescrum.com</a></div>
+			<!--<div class="sml_hd" style="margin:0px auto;width:585px; text-align:center" align="center">You may have questions, we've tried to address them.<br />If you still have questions, please write to us at <a href='mailto:support@qusol.org' style="color:#066D99">support@qusol.org</a></div>
 			<div style="border-top:3px solid #fff; border-bottom:1px solid #dddddd;width:100%;position:relative"></div>-->
 			<div class="container faq_480" style="margin-top:25px;">
 				<div class="fl">
@@ -89,7 +89,7 @@ Also you can cancel at any time. If you are cancelling in between the billing pe
 								
 								<div class="cb"></div>
 								<div class="sml_hd_1 faq_ans">
-									No problems, <a href="mailto:support@orangescrum.com?subject=What if I have a huge team and expecting unlimited activities?" style="text-decoration: none;color: #1e6ea1;">Contact us</a> to avail customized pricing.
+									No problems, <a href="mailto:support@qusol.org?subject=What if I have a huge team and expecting unlimited activities?" style="text-decoration: none;color: #1e6ea1;">Contact us</a> to avail customized pricing.
 
 								</div>
 							</div>
@@ -102,7 +102,7 @@ Also you can cancel at any time. If you are cancelling in between the billing pe
 								<div class="sml_hd_1 faq_ans">
 									Yes. The other modes of payment is Wire Transfer. 
 									This mode is accepted only for the yearly subscription.
-									<a href="mailto:support@orangescrum.com" style="text-decoration: none;color: #1e6ea1;">Contact us</a> for yearly subscription
+									<a href="mailto:support@qusol.org" style="text-decoration: none;color: #1e6ea1;">Contact us</a> for yearly subscription
 								</div>
 							</div>
 							<div class="cb20"></div>
@@ -112,7 +112,7 @@ Also you can cancel at any time. If you are cancelling in between the billing pe
 								</div>	
 								<div class="cb"></div>
 								<div class="sml_hd_1 faq_ans">
-									Yes. <a href="mailto:support@orangescrum.com?subject=Can I get a Custom Plan which best suits my business?" style="text-decoration: none;color: #1e6ea1;">Contact us</a> to get custom plan for your account.
+									Yes. <a href="mailto:support@qusol.org?subject=Can I get a Custom Plan which best suits my business?" style="text-decoration: none;color: #1e6ea1;">Contact us</a> to get custom plan for your account.
 								</div>
 							</div>
 							<div class="cb20"></div>
@@ -160,7 +160,7 @@ Also you can cancel at any time. If you are cancelling in between the billing pe
 								
 								<div class="cb"></div>
 								<div class="sml_hd_1 faq_ans">
-									Of course, we can install Orangescrum in your environment with a customized price.<br /><a href="mailto:support@orangescrum.com?subject=Is there any option to have Orangescrum on my premises?" style="text-decoration: none;color: #1e6ea1;">Contact us</a>  for on-premise solutions.   
+									Of course, we can install Orangescrum in your environment with a customized price.<br /><a href="mailto:support@qusol.org?subject=Is there any option to have Orangescrum on my premises?" style="text-decoration: none;color: #1e6ea1;">Contact us</a>  for on-premise solutions.   
 
 								</div>
 							</div>

@@ -22,7 +22,7 @@
  * 02110-1301 USA.
  *
  * You can contact Orangescrum, 2059 Camden Ave. #118, San Jose, CA - 95124, US. 
-   or at email address support@orangescrum.com.
+   or at email address support@qusol.org.
  *
  * The interactive user interfaces in modified source and object code versions
  * of this program must display Appropriate Legal Notices, as required under

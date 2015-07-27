@@ -40,7 +40,7 @@ define('FROM_EMAIL_NOTIFY', 'noreply@qusol.org'); //(REQUIRED)
 define('SUPPORT_EMAIL', 'info@qusol.org'); //(REQUIRED) From Email
 define('FROM_EMAIL',  'Qusol Infotech<'.SUPPORT_EMAIL.'>');
 
-define("DEV_EMAIL", 'developer@mycompany.com'); // Developer Email ID to report the application error
+define("DEV_EMAIL", 'developer@qusol.org'); // Developer Email ID to report the application error
 define('EMAIL_SUBJ', '[Orangescrum]');
 
 // If you have not yet set up the Nohup cronjob, leave it blank
@@ -53,7 +53,7 @@ define('SUB_FOLDER', ''); //If your application URL followed by a folder name li
 
 if(php_sapi_name() === "cli") {
 	define('PROTOCOL', "http://");
-	define('DOMAIN', "www.my-orangescrum.com/"); // Please set your application domain (REQUIRED)
+	define('DOMAIN', "pmc.qusol.org/"); // Please set your application domain (REQUIRED)
 }else{
 	$ht = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on')?"https://":"http://";
 	define('PROTOCOL', $ht);

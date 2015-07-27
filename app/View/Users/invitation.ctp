@@ -73,7 +73,7 @@ else {
 											<?php echo $this->Form->create('User',array('url'=>'/users/invitation/'.$qstr,'onsubmit'=>'return validateSignUp()','autocomplete'=>'off')); ?>
 											<div id="divide"></div>
 												<div class="join_txt"><h2>Easy Sign Up</h2></div>
-                                                <div class="join_txt"><h2><font color="#DD5227"><?php echo $company_name; ?></font></h2></div>
+                                                <!-- <div class="join_txt"><h2><font color="#DD5227"><?php echo $company_name; ?></font></h2></div> -->
                                                         
                                                         <div style="width:100%"><img src="<?php echo HTTP_ROOT; ?>img/images/login_header_shadow.png" style="width:97%"/></div>
                                                     <div style="height:10px"></div>

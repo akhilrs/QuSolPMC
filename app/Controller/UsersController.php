@@ -2880,7 +2880,7 @@ class UsersController extends AppController {
 						$Company = ClassRegistry::init('Company');
 						$comp = $Company->find('first', array('fields' => array('Company.id', 'Company.name', 'Company.uniq_id')));
 						
-						$subject = $fromName." invited you to join ".$comp['Company']['name']." on Orangescrum";
+						$subject = $fromName." invited you to join ".$comp['Company']['name'];
 						
 						$this->Email->delivery = 'smtp';
 						$this->Email->to = $to;  

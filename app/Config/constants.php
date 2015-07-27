@@ -6,10 +6,10 @@
 //Make sure to enable "php_openssl" in PHP. In WAMP, you need to enable extension=php_openssl.dll on php.ini file 
 
 //Gmail SMTP
-define("SMTP_HOST", "ssl://smtp.gmail.com");
+define("SMTP_HOST", "ssl://smtp.zoho.com");
 define("SMTP_PORT", "465");
-define("SMTP_UNAME", "dev.akhilrs@gmail.com");
-define("SMTP_PWORD", "akhilrs$*");
+define("SMTP_UNAME", "info@qusol.org");
+define("SMTP_PWORD", "MmyOhqw8bf");
 //https://www.arclab.com/en/amlc/list-of-smtp-and-imap-servers-mailserver-list.html (Get the list of Host names)
 
 ### OR ###

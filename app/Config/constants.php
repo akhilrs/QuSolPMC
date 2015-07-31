@@ -33,7 +33,7 @@ define("SMTP_UNAME", "youremail@domain.com");
 define("SMTP_PWORD", "******");
 //https://sendgrid.com/user/signup (free signup to sendgrid)
  */
-
+error_reporting(0);
 ########################################################################
 define("WEB_DOMAIN", "pmc.qusol.org"); //ex. demo.orangescrum.com
 define('FROM_EMAIL_NOTIFY', 'info@qusol.org'); //(REQUIRED)

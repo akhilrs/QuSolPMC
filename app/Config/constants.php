@@ -36,7 +36,7 @@ define("SMTP_PWORD", "******");
 
 ########################################################################
 define("WEB_DOMAIN", "pmc.qusol.org"); //ex. demo.orangescrum.com
-define('FROM_EMAIL_NOTIFY', 'noreply@qusol.org'); //(REQUIRED)
+define('FROM_EMAIL_NOTIFY', 'info@qusol.org'); //(REQUIRED)
 define('SUPPORT_EMAIL', 'info@qusol.org'); //(REQUIRED) From Email
 define('FROM_EMAIL', 'Qusol Infotech<' . SUPPORT_EMAIL . '>');
 
